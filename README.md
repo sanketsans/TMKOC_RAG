@@ -29,5 +29,5 @@ Question: {question}
 
 So eg. If the user provides a ``query : Roast the resume``. The output of the models is ``I don't know. I cannot roast the resume as it is not provided in the context. Please provide the resume you want me to roast, and I will be happy to help.``
 
-I use [FAISS- Facebook AI Similarity Search](https://ai.meta.com/tools/faiss/#:~:text=FAISS%20(Facebook%20AI%20Similarity%20Search,are%20similar%20to%20each%20other.), to store the embeddings by creating a vector database and then use it store it elsewhere. 
+I use [FAISS - Facebook AI Similarity Search](https://ai.meta.com/tools/faiss/), to store the embeddings by creating a vector database and then use it store it elsewhere. 
 One can also use the vector database to create external application. One good example is [here](https://python.langchain.com/docs/integrations/vectorstores/faiss/). 
